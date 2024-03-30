@@ -9,7 +9,7 @@ function bissecao
   y = funcao(x);
   plot(x,y) %plotar o gráfico da função
   hold on
-  erro = 10^-16; %quanto eu quero de erro
+  erro = 10^-15; %quanto eu quero de erro
   k = 0; %número de iterações
   fxm = 1; %inicia na metade de a e b
 
