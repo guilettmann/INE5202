@@ -11,7 +11,7 @@ function falsa_posicao
   hold on
   erro = 10^-15; %quanto eu quero de erro
   k = 0; %número de iterações
-  fxm = (a+b)/2; %inicia na metade de a e b
+  fxm = (a+b)/2; %chute inicial
 
   while (abs(fxm) > erro) %enquanto nao tenho a precisão que preciso
 
