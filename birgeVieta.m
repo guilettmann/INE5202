@@ -1,4 +1,4 @@
-function BirgeVieta
+function birgeVieta
   clear
   clc
   a=[8 0 -2 -13 5 -4];
